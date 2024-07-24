@@ -1,0 +1,46 @@
+
+body{
+    background-color: #1C1C1C;
+}
+
+
+img.icon{
+    max-width: 30px;
+}
+
+img.logo{
+    max-width: 100px;
+}
+
+.my-card{
+    max-width: 400px;
+}
+
+#app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.text-coral{
+    color: coral;
+}
+
+
+.btn-orange{
+    background-color: darkorange;
+    &:hover{
+        background-color: rgb(255, 174, 0);
+        color:black
+    }
+}
+
+.my-btn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
